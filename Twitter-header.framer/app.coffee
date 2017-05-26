@@ -9,7 +9,6 @@ avatarMinWidth = 86
 blurMargin = 20
 statusBarOffset = 40
 
-
 scroll = new ScrollComponent
 	y: headerMinHeight
 	width: Screen.width
@@ -124,15 +123,6 @@ scroll.content.on Events.Move, ( event, layer ) ->
 		true )
 	
 	headerText.visible = if headerText.y < headerMinHeight then true else false
-
-
-# 
-# new Layer
-# 	parent: scroll.content
-# 	height: Screen.height * 2
-# 	width: Screen.width
-# 	style:
-# 		background: "-webkit-linear-gradient(top, #FFFFFF 0%, #28AFFA 100%)"
 		
 twitterFeed = new Layer
 	parent: scroll.content

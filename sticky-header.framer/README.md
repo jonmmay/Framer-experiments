@@ -1,0 +1,1 @@
+![alt text](https://github.com/jonmmay/Framer-experiments/blob/master/sticky-header.framer/sticky-header.gif?raw=true "Gif")
